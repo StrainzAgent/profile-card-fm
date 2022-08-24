@@ -10,14 +10,13 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ### Screenshot
 
-![](/final-screenshots/Screenshot%202022-08-24%20at%2016-57-26%20Frontend%20Mentor%20Profile%20card%20component.png;
-
-)![](/final-screenshots/Screenshot%202022-08-24%20at%2017-00-16%20Frontend%20Mentor%20Profile%20card%20component.png)
+![](/final-screenshots/Screenshot%202022-08-24%20at%2016-57-26%20Frontend%20Mentor%20Profile%20card%20component.png;)
+![](/final-screenshots/Screenshot%202022-08-24%20at%2017-00-16%20Frontend%20Mentor%20Profile%20card%20component.png)
 
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: (https://strainzagent.github.io/profile-card-fm/)
 
 ## My process
 
