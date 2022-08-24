@@ -1,0 +1,132 @@
+:root {
+  /* === COLORS === */
+  --Dark-cyan: hsl(185, 75%, 39%);
+  --Very-dark-desaturated-blue: hsl(229, 23%, 23%);
+  --Dark-grayish-blue: hsl(227, 10%, 46%);
+  --Dark-gray: hsl(0, 0%, 59%);
+
+  /* === TYPOGRAPHY === */
+  --fs-18px: 18px;
+  --ff: "Kumbh Sans", sans-serif;
+  --fw-regular: 400;
+  --fw-bold: 700;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  height: 100vh;
+  background-color: var(--Dark-cyan);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: var(--ff);
+  overflow: hidden;
+}
+.bg-images {
+  position: relative;
+  z-index: -1;
+}
+.bg-images img {
+  position: absolute;
+}
+.bg-images img:first-child {
+  top: -700px;
+  right: 55%;
+}
+.bg-images img:last-child {
+  left: 50%;
+  top: 160px;
+}
+.card-container {
+  position: relative;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 325px;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0px 15px 40px rgba(0, 0, 0, 0.2);
+  margin-top: 50px;
+}
+.top__image img {
+  width: 100%;
+  height: 100%;
+}
+.profile__image {
+  position: absolute;
+  transform-origin: center;
+  transform: translateY(-40%);
+}
+.profile__image img {
+  border: 5px solid white;
+  border-radius: 50%;
+}
+.profile__info {
+  width: 100%;
+  text-align: center;
+  border-bottom: 1px solid lightgrey;
+  padding: 20px 0 25px;
+  margin-top: 50px;
+}
+
+.profile__info p:last-child {
+  font-size: 0.8rem;
+  padding-top: 0.5rem;
+  color: var(--Dark-gray);
+}
+
+.name {
+  font-size: var(--fs-18px);
+  font-weight: var(--fw-bold);
+  color: var(--Very-dark-desaturated-blue);
+}
+.age {
+  padding-left: 0.5rem;
+  color: var(--Dark-gray);
+}
+.socials {
+  padding: 1.5rem 0 1.3rem;
+  width: 100%;
+}
+.socials ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-evenly;
+}
+.socials li {
+  width: 50px;
+  font-size: var(--fs-18px);
+  font-weight: var(--fw-bold);
+  line-height: 1.2rem;
+  text-align: center;
+  color: var(--Very-dark-desaturated-blue);
+}
+.socials li span {
+  font-weight: var(--fw-regular);
+  font-size: 0.7rem;
+  letter-spacing: 1px;
+  color: var(--Dark-gray);
+}
+.attribution {
+  width: 250px;
+  text-align: center;
+  font-size: 12px;
+  padding-top: 25px;
+  color: white;
+  font-family: var(--ff);
+}
+.attribution a {
+  color: inherit;
+}
+.attribution a:hover {
+  color: aqua;
+  transition: ease-in 0.3s;
+}
